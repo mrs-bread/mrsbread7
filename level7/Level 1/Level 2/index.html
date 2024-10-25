@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Задание 7</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    </head>
+    <script src="main.js"></script>
+    <body class="bg-white text-dark">
+        <header class="bg-dark text-light d-flex flex-colum p-3">
+            <div class="inheader d-flex align-items-center">
+                <img id="logo" alt="header_logo" src="images/logo.jpg" class="align-midle me-3" width="71" height="60">
+                <h1 class="title">Sons't</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 mt-2 d-none d-lg-flex">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="about/about.html" target="_blank">Зелень</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about/in.html" target="_blank">Овощи</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Level 2/file0.html" target="_blank">Фрукты</a></li>
+                </ul>
+            </nav>
+        </header>
+         
+        <div class="container my-4">
+            <h2 clss="text-center">Галлерея</h2>
+            <div class="gallery">
+                <div><img src="fruits/cherry.jpeg" alt="cherry" class="img-fluid"></div>
+                <div><img src="fruits/climentin.jpeg" alt="climentin" class="img-fluid"></div>
+                <div><img src="fruits/coconut.jpeg" alt="coconut" class="img-fluid"></div>
+                <div><img src="fruits/dragonfruit.jpeg" alt="dragonfruit" class="img-fluid"></div>
+                <div><img src="fruits/grape.jpeg" alt="grape" class="img-fluid"></div>
+                <div><img src="fruits/kiwi.jpeg" alt="kiwi" class="img-fluid"></div>
+                <div><img src="fruits/mango.jpeg" alt="mango" class="img-fluid"></div>
+                <div><img src="fruits/papaya.jpeg" alt="papaya" class="img-fluid"></div>
+                <div><img src="fruits/peach.jpeg" alt="peach" class="img-fluid"></div>
+                <div><img src="fruits/pear.jpeg" alt="pear" class="img-fluid"></div>
+                <div><img src="fruits/pineapple.jpeg" alt="pineapple" class="img-fluid"></div>
+                <div><img src="fruits/pomegranate.jpeg" alt="pomegranate" class="img-fluid"></div>
+            </div>
+            <div class="text-center mt-3">
+                <div class="pager"></div>
+            </div>
+        </div>
+        <div class="container-fluid d-lg-none">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 mt-3">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="about/about.html" target="_blank">Зелень</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about/in.html" target="_blank">Овощи</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Level 2/file0.html" target="_blank">Фрукты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="lest my-4 mx-auto">
+            <div class="p-4 bg-white rounded shadow">
+                <h2 class="text-center">Список гиперссылок:</h2>
+                <ul>
+                    <li><a href="http://kubsu.ru" target="_blank">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
+                    <li><a href="https://kubsu.ru" target="_blank">Абсолютная на главную сайта kubsu.ru в протоколе https</a></li>
+                    <li><a href="https://7dach.ru" target="_blank"><img src="images/image.jpg" alt="flower" width="220" title="7 Dach"></a></li>
+                    <li><a href="./about/in.html" target="_blank">Сокращённая ссылка на внутренную страницу</a></li>
+                    <li><a href="./index.html" target="_blank">Сокращённая ссылка на главную страницу</a></li>
+                    <li><a href="#form">Ссылка на фрагмент текущей страницы</a></li>
+                    <li><a href="https://infoneeds.kubsu.ru/infoneeds/guests/courses.jsp?type=spb&cid=5349587&term=3#5349863x" target="_blank">Ссылка с тремя параметрами в URL</a></li>
+                    <li><a href="https://www.example.com/products?cat=electronics&id=456" target="_blank">Ссылка с параметром id в URL</a></li>
+                    <li><a href="./file0.html" target="_blank">Относительная ссылка на страницу в текущем каталоге</a></li>
+                    <li><a href="./about/about.html" target="_blank">Относительная ссылка на страницу в каталоге about</a></li>
+                    <li><a href="../lv1.html" target="_blank">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+                    <li><a href="../../lv2.html" target="_blank">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+                    <li>Эксперимент - процедура, выполняемая для поддержки, опровержения или подтверждения <a href="https://ru.wikipedia.org/wiki/Гипотеза" target="_blank">гипотезы</a> или теории.</li>
+                    <li><a href="https://ru.wikipedia.org/wiki/12_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F#:~:text=2011%C2%A0%E2%80%94-,%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1,-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%93%D0%B0%D0%BB%D0%B8%D0%BC%D0%BE%D0%B2%20(%D1%80" target="_blank">Ссылку на фрагмент страницы стороннего сайта</a></li>
+                    <li>Ссылка из прямоугольных и круглых областей картинки (HTML-тег map)
+                    <br><img src="images/cricket.jpg" width="220" height="220" alt="cricket" usemap="#map"></li>
+                    <li><a href target="_blank">Ссылка с пустым href</a></li>
+                    <li><a>Ссылка без href</a></li>
+                    <li><a href="index.html" target="_blank" rel="nofollow" >Ссылка, по которой запрещён переход поисковикам</a></li>
+                    <li><a href="index.html" target="_blank" rel="noindex">Ссылка запрещённая для индексации поисковикам</a></li>
+                    <li>Нумерованный список ссылок с подписями title
+                    <br>Цветы:
+                    <ol>
+                        <li><a href="https://ru.wikipedia.org/wiki/Роза" target="_blank" title="Роза">Роза</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/Тюльпан" target="_blank" title="Тюльпан">Тюльпан</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/Подсолнечник" target="_blank" title="Подсолнух">Подсолнух</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/Лотос" target="_blank" title="Лотос">Лотос</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/Сирень" target="_blank" title="Сирень">Сирень</a></li>
+                    </ol>
+                    </li>
+                    <li><a href="ftp://user:password@tavalik.ru/Temp/file.txt" target="_blank">Ссылка на файл на сервере FTP с авторизацией</a></li>
+                </ul>
+                <map name="map">
+                <area shape="rect" coords="0,0,220,100" href="https://ru.wikipedia.org/wiki/Anabrus_simplex" alt="Прямоугольная область" title="Прямоугольная область" target="_blank">
+                <area shape="circle" coords="100,150,50" href="https://ru.wikipedia.org/wiki/Настоящие_кузнечики" alt="Круглая область" title="Круглая область" target="_blank"></map>
+            </div>
+        </div>
+        <h2 class="text-center"><u>Таблица</u></h2>
+        <div class="container-fluid text-center">
+            <div class="table-responsive">
+                <table class="table table-border custom-table">
+                    <thead>
+                        <tr class="table-header">
+                            <th>Наименование</th>
+                            <th>Ккал/100 гр</th>
+                            <th>Белки</th>
+                            <th>Углеводы</th>
+                        </tr>
+                        <tr class="table-header">
+                            <td colspan="4">Каллорийность фруктов</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <td>Ананас</td>
+                            <td>48</td>
+                            <td>0.4</td>
+                            <td>11.8</td>
+                        </tr>
+                        <tr class="alt-row">
+                            <td>Вишня</td>
+                            <td>49</td>
+                            <td>0.8</td>
+                            <td>11.3</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Груша</td>
+                            <td>42</td>
+                            <td>0.4</td>
+                            <td>10.7</td>
+                        </tr>
+                        <tr class="alt-row">
+                            <td>Киви</td>
+                            <td>61</td>
+                            <td>1</td>
+                            <td>11</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Мандарин</td>
+                            <td>38</td>
+                            <td>0.8</td>
+                            <td>8.6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="calc my-4 mx-auto">
+            <div class="center bg-white p-4 rounded shadow">
+                <h2 class="text-center"><u>Калькулятор</u></h2>
+                <label>Фрукт:</label><br>
+                <input type="radio" name="serviceType" value="cherry" checked>Вишня<br>
+                <input type="radio" name="serviceType" value="climentin">Мандарин<br>
+                <input type="radio" name="serviceType" value="pineapple">Ананас<br>    
+                <div class="form-group" id="optionsContainer" style="display: none;">
+                    <label for="options">Выбор опций:</label>
+                    <select id="options" class="form-control">
+                        <option value="option0">Пакет не нужен</option>
+                        <option value="option1">Обычный пакет</option>
+                        <option value="option2">Бумажный пакет</option>
+                    </select>
+                </div>    
+                <div class="form-group" id="propertiesContainer" style="display: none;">
+                    <div class="form-check">
+                        <input type="checkbox" id="property" class="form-check-input">
+                        <label class="form-check-label" for="property">Подарочная упаковка</label><br>
+                    </div>
+                </div>
+                <label>Введите количество товара:</label>
+                <input type="text" id="quantityField" class="form-control mb-3"/>
+                <label>Итоговая цена:</label>
+                <input type="text" id="totalPriceField" class="form-control mb-3" readonly/>
+                <div class="row">
+                    <div class="col-4">
+                        <button id="button1" class="btn btn-primary btn-block">1</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="button2" class="btn btn-primary btn-block">2</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="button3" class="btn btn-primary btn-block">3</button>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-4">
+                        <button id="button4" class="btn btn-primary btn-block">4</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="button5" class="btn btn-primary btn-block">5</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="button6" class="btn btn-primary btn-block">6</button>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-4">
+                        <button id="button7" class="btn btn-primary btn-block">7</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="button8" class="btn btn-primary btn-block">8</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="button9" class="btn btn-primary btn-block">9</button>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-4 offset-4">
+                        <button id="button0" class="btn btn-primary btn-block">0</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fa my-4 mx-auto">
+            <div class="center bg-white p-4 rounded shadow">
+                <form action="/" mathod="POST" class="was-validated">
+                    <h2 class="text-center"><u>Форма</u></h2>
+                    <div class="mb-3">
+                        <div id="smth">
+                            <label for="fio">ФИО:</label>
+                        </div>
+                        <input type="text" name="fio" id="fio" class="form-control" required>
+                        <div class="invalid-feedback">1111</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="phone">Телефон:</label>
+                        <input type="tel" name="phone" id="phone" class="form-control" required>
+                        <div class="invalid-feedback">2222</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email">e-mail:</label>
+                        <input type="email" name="email" id="email" class="form-control" required>
+                        <div class="invalid-feedback">3333</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="dob">Дата рождения:</label>
+                        <input type="date" name="dob" id="dob" class="form-control" required>
+                        <div class="invalid-feedback">4444</div>
+                    </div>
+
+                    <label>Пол:</label>
+                    <div class="form-check">
+                        <input type="radio" name="gender" value="male" id="genderMale" class="form-check-input" required>
+                        <label class="form-check-label" for="genderMale">Мужской</label><br>
+                        <input type="radio" name="gender" value="female" id="genderFemale" class="form-check-input" required>
+                        <label class="form-check-label" for="genderFemale">Женский</label><br>
+                        <div class="invalid-feedback">5555</div><br>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="language">Любимый язык программирования:</label><br>
+                        <select name="language" id="language" class="form-select form-control" required aria-label="language">
+                            <option value="Pascal">Pascal</option>
+                            <option value="C">C</option>
+                            <option value="C++">C++</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="PHP">PHP</option>
+                            <option value="Python">Python</option>
+                            <option value="Java">Java</option>
+                            <option value="Haskel">Haskel</option>
+                            <option value="Clojure">Clojure</option>
+                            <option value="Prolog">Prolog</option>
+                            <option value="Scala">Scala</option>
+                        </select>
+                        <div class="invalid-feedback">6666</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="bio" class="form-label">Биография</label>
+                        <textarea name="bio" id="bio" class="form-control" required></textarea>
+                        <div class="invalid-feedback">7777</div>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" name="contract" value="agree" id="contract" class="form-check-input" required>
+                        <label class="form-check-label" for="contract">С контрактом ознакомлен(а)</label><br>
+                        <div class="invalid-feedback">8888</div>
+                    </div>
+
+                    <input type="submit" value="Сохранить" class="btn mt-3 custom-button">
+                </form>
+            </div>
+        </div>
+        <footer class="text-white text-center py-3">
+            <p>&copy;© Денис Балашов</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.gallery').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots: true,
+                    infinite: true,
+                    adaptiveHeight: true,
+                    prevArrow: '<button type="button" class="slick-prev">Назад</button>',
+                    nextArrow: '<button type="button" class="slick-next">Вперед</button>',
+                    responsive: [
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 1,
+                                arrows: true, 
+                            }
+                        }
+                    ]
+                });
+                
+            });
+        </script>
+    </body>
+</html>
